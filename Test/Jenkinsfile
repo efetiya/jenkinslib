@@ -5,7 +5,7 @@ pipeline {
         stage('Cloning Git') {
             steps {
                 git url: 'https://github.com/efetiya/projectx.git',
-                credentialsId: '7c2bb7f4-e380-4dc9-b395-8e96745ae435'
+                    credentialsId: '7c2bb7f4-e380-4dc9-b395-8e96745ae435'
             }
         }
         stage('Build') {
