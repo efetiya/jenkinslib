@@ -1,14 +1,10 @@
-
 pipeline {
     agent any
 
     stages {
-        stage('test') {
+        stage('Build') {
             steps {
-
-                echo 'Build triggered from the Test ENV Jenkinsfile...'
-
-                }
+                echo 'Build triggered from the Test ENV Jenkinsfile..'
             }
         }
     }
